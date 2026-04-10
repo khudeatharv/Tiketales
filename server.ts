@@ -25,10 +25,17 @@ async function startServer() {
   app.use(express.json());
 
   // --- API Routes ---
+  // Legacy root API routes (local/dev compatibility)
   app.use('/auth', authRoutes);
-  app.use('/movies', movieRoutes); // Public - no auth required
+  app.use('/movies', movieRoutes);
   app.use('/user', userRoutes);
   app.use('/admin', adminRoutes);
+
+  // Vercel/API-prefixed routes
+  app.use('/api/auth', authRoutes);
+  app.use('/api/movies', movieRoutes);
+  app.use('/api/user', userRoutes);
+  app.use('/api/admin', adminRoutes);
 
   // --- Vite Middleware ---
   if (process.env.NODE_ENV !== 'production') {

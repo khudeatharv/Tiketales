@@ -1,0 +1,2966 @@
+{
+  "indian_entertainment": {
+    "movies": {
+      "bollywood": [
+        {
+          "id": 1,
+          "title": "Dilwale Dulhania Le Jayenge",
+          "year": 1995,
+          "language": "Hindi",
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "director": "Aditya Chopra",
+          "cast": [
+            "Shah Rukh Khan",
+            "Kajol"
+          ],
+          "rating": "U",
+          "duration_min": 189,
+          "poster": "https://picsum.photos/seed/dilwaledulhanialejay/400/600"
+        },
+        {
+          "id": 2,
+          "title": "3 Idiots",
+          "year": 2009,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama"
+          ],
+          "director": "Rajkumar Hirani",
+          "cast": [
+            "Aamir Khan",
+            "R. Madhavan",
+            "Sharman Joshi"
+          ],
+          "rating": "U",
+          "duration_min": 170,
+          "poster": "https://picsum.photos/seed/3idiots/400/600"
+        },
+        {
+          "id": 3,
+          "title": "Dangal",
+          "year": 2016,
+          "language": "Hindi",
+          "genre": [
+            "Sports",
+            "Drama",
+            "Biography"
+          ],
+          "director": "Nitesh Tiwari",
+          "cast": [
+            "Aamir Khan",
+            "Fatima Sana Shaikh"
+          ],
+          "rating": "U",
+          "duration_min": 161,
+          "poster": "https://picsum.photos/seed/dangal/400/600"
+        },
+        {
+          "id": 4,
+          "title": "Mughal-E-Azam",
+          "year": 1960,
+          "language": "Hindi",
+          "genre": [
+            "Historical",
+            "Drama",
+            "Romance"
+          ],
+          "director": "K. Asif",
+          "cast": [
+            "Dilip Kumar",
+            "Madhubala"
+          ],
+          "rating": "U",
+          "duration_min": 197,
+          "poster": "https://picsum.photos/seed/mughaleazam/400/600"
+        },
+        {
+          "id": 5,
+          "title": "Sholay",
+          "year": 1975,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+          ],
+          "director": "Ramesh Sippy",
+          "cast": [
+            "Amitabh Bachchan",
+            "Dharmendra",
+            "Hema Malini"
+          ],
+          "rating": "U/A",
+          "duration_min": 204,
+          "poster": "https://picsum.photos/seed/sholay/400/600"
+        },
+        {
+          "id": 6,
+          "title": "Kabhi Khushi Kabhie Gham",
+          "year": 2001,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Family",
+            "Romance"
+          ],
+          "director": "Karan Johar",
+          "cast": [
+            "Shah Rukh Khan",
+            "Amitabh Bachchan",
+            "Kajol"
+          ],
+          "rating": "U",
+          "duration_min": 210,
+          "poster": "https://picsum.photos/seed/kabhikhushikabhiegha/400/600"
+        },
+        {
+          "id": 7,
+          "title": "Lagaan",
+          "year": 2001,
+          "language": "Hindi",
+          "genre": [
+            "Sports",
+            "Historical",
+            "Drama"
+          ],
+          "director": "Ashutosh Gowariker",
+          "cast": [
+            "Aamir Khan",
+            "Gracy Singh"
+          ],
+          "rating": "U",
+          "duration_min": 224,
+          "poster": "https://picsum.photos/seed/lagaan/400/600"
+        },
+        {
+          "id": 8,
+          "title": "PK",
+          "year": 2014,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Science Fiction"
+          ],
+          "director": "Rajkumar Hirani",
+          "cast": [
+            "Aamir Khan",
+            "Anushka Sharma"
+          ],
+          "rating": "U/A",
+          "duration_min": 153,
+          "poster": "https://picsum.photos/seed/pk/400/600"
+        },
+        {
+          "id": 9,
+          "title": "Kuch Kuch Hota Hai",
+          "year": 1998,
+          "language": "Hindi",
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "director": "Karan Johar",
+          "cast": [
+            "Shah Rukh Khan",
+            "Kajol",
+            "Rani Mukerji"
+          ],
+          "rating": "U",
+          "duration_min": 185,
+          "poster": "https://picsum.photos/seed/kuchkuchhotahai/400/600"
+        },
+        {
+          "id": 10,
+          "title": "Zindagi Na Milegi Dobara",
+          "year": 2011,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Adventure"
+          ],
+          "director": "Zoya Akhtar",
+          "cast": [
+            "Hrithik Roshan",
+            "Farhan Akhtar",
+            "Abhay Deol"
+          ],
+          "rating": "U/A",
+          "duration_min": 155,
+          "poster": "https://picsum.photos/seed/zindaginamilegidobar/400/600"
+        },
+        {
+          "id": 11,
+          "title": "Gully Boy",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Music"
+          ],
+          "director": "Zoya Akhtar",
+          "cast": [
+            "Ranveer Singh",
+            "Alia Bhatt"
+          ],
+          "rating": "U/A",
+          "duration_min": 153,
+          "poster": "https://picsum.photos/seed/gullyboy/400/600"
+        },
+        {
+          "id": 12,
+          "title": "Andhadhun",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Thriller",
+            "Dark Comedy"
+          ],
+          "director": "Sriram Raghavan",
+          "cast": [
+            "Ayushmann Khurrana",
+            "Tabu"
+          ],
+          "rating": "A",
+          "duration_min": 139,
+          "poster": "https://picsum.photos/seed/andhadhun/400/600"
+        },
+        {
+          "id": 13,
+          "title": "Dil Chahta Hai",
+          "year": 2001,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "director": "Farhan Akhtar",
+          "cast": [
+            "Aamir Khan",
+            "Saif Ali Khan",
+            "Akshaye Khanna"
+          ],
+          "rating": "U",
+          "duration_min": 183,
+          "poster": "https://picsum.photos/seed/dilchahtahai/400/600"
+        },
+        {
+          "id": 14,
+          "title": "Gangs of Wasseypur",
+          "year": 2012,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "director": "Anurag Kashyap",
+          "cast": [
+            "Manoj Bajpayee",
+            "Nawazuddin Siddiqui"
+          ],
+          "rating": "A",
+          "duration_min": 321,
+          "poster": "https://picsum.photos/seed/gangsofwasseypur/400/600"
+        },
+        {
+          "id": 15,
+          "title": "Queen",
+          "year": 2014,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Comedy"
+          ],
+          "director": "Vikas Bahl",
+          "cast": [
+            "Kangana Ranaut"
+          ],
+          "rating": "U/A",
+          "duration_min": 146,
+          "poster": "https://picsum.photos/seed/queen/400/600"
+        },
+        {
+          "id": 16,
+          "title": "Taare Zameen Par",
+          "year": 2007,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Family"
+          ],
+          "director": "Aamir Khan",
+          "cast": [
+            "Darsheel Safary",
+            "Aamir Khan"
+          ],
+          "rating": "U",
+          "duration_min": 165,
+          "poster": "https://picsum.photos/seed/taarezameenpar/400/600"
+        },
+        {
+          "id": 17,
+          "title": "Barfi!",
+          "year": 2012,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+          ],
+          "director": "Anurag Basu",
+          "cast": [
+            "Ranbir Kapoor",
+            "Priyanka Chopra",
+            "Ileana D'Cruz"
+          ],
+          "rating": "U",
+          "duration_min": 151,
+          "poster": "https://picsum.photos/seed/barfi/400/600"
+        },
+        {
+          "id": 18,
+          "title": "Rockstar",
+          "year": 2011,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Music",
+            "Romance"
+          ],
+          "director": "Imtiaz Ali",
+          "cast": [
+            "Ranbir Kapoor",
+            "Nargis Fakhri"
+          ],
+          "rating": "U/A",
+          "duration_min": 159,
+          "poster": "https://picsum.photos/seed/rockstar/400/600"
+        },
+        {
+          "id": 19,
+          "title": "Swades",
+          "year": 2004,
+          "language": "Hindi",
+          "genre": [
+            "Drama"
+          ],
+          "director": "Ashutosh Gowariker",
+          "cast": [
+            "Shah Rukh Khan",
+            "Gayatri Joshi"
+          ],
+          "rating": "U",
+          "duration_min": 189,
+          "poster": "https://picsum.photos/seed/swades/400/600"
+        },
+        {
+          "id": 20,
+          "title": "Drishyam",
+          "year": 2015,
+          "language": "Hindi",
+          "genre": [
+            "Thriller",
+            "Drama",
+            "Crime"
+          ],
+          "director": "Nishikant Kamat",
+          "cast": [
+            "Ajay Devgn",
+            "Tabu",
+            "Shriya Saran"
+          ],
+          "rating": "U/A",
+          "duration_min": 163,
+          "poster": "https://picsum.photos/seed/drishyam/400/600"
+        },
+        {
+          "id": 21,
+          "title": "Kabir Singh",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Romance"
+          ],
+          "director": "Sandeep Reddy Vanga",
+          "cast": [
+            "Shahid Kapoor",
+            "Kiara Advani"
+          ],
+          "rating": "A",
+          "duration_min": 173,
+          "poster": "https://picsum.photos/seed/kabirsingh/400/600"
+        },
+        {
+          "id": 22,
+          "title": "Tumbbad",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Horror",
+            "Fantasy",
+            "Thriller"
+          ],
+          "director": "Rahi Anil Barve",
+          "cast": [
+            "Sohum Shah"
+          ],
+          "rating": "A",
+          "duration_min": 104,
+          "poster": "https://picsum.photos/seed/tumbbad/400/600"
+        },
+        {
+          "id": 23,
+          "title": "Padmaavat",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Historical",
+            "Drama",
+            "Action"
+          ],
+          "director": "Sanjay Leela Bhansali",
+          "cast": [
+            "Deepika Padukone",
+            "Ranveer Singh",
+            "Shahid Kapoor"
+          ],
+          "rating": "U/A",
+          "duration_min": 164,
+          "poster": "https://picsum.photos/seed/padmaavat/400/600"
+        },
+        {
+          "id": 24,
+          "title": "War",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Siddharth Anand",
+          "cast": [
+            "Hrithik Roshan",
+            "Tiger Shroff"
+          ],
+          "rating": "U/A",
+          "duration_min": 154,
+          "poster": "https://picsum.photos/seed/war/400/600"
+        },
+        {
+          "id": 25,
+          "title": "Brahmastra: Part One – Shiva",
+          "year": 2022,
+          "language": "Hindi",
+          "genre": [
+            "Fantasy",
+            "Action",
+            "Adventure"
+          ],
+          "director": "Ayan Mukerji",
+          "cast": [
+            "Ranbir Kapoor",
+            "Alia Bhatt",
+            "Amitabh Bachchan"
+          ],
+          "rating": "U/A",
+          "duration_min": 167,
+          "poster": "https://picsum.photos/seed/brahmastrapartoneshi/400/600"
+        },
+        {
+          "id": 26,
+          "title": "Pathaan",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Spy"
+          ],
+          "director": "Siddharth Anand",
+          "cast": [
+            "Shah Rukh Khan",
+            "Deepika Padukone",
+            "John Abraham"
+          ],
+          "rating": "U/A",
+          "duration_min": 146,
+          "poster": "https://picsum.photos/seed/pathaan/400/600"
+        },
+        {
+          "id": 27,
+          "title": "Jawan",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Atlee Kumar",
+          "cast": [
+            "Shah Rukh Khan",
+            "Nayanthara",
+            "Vijay Sethupathi"
+          ],
+          "rating": "U/A",
+          "duration_min": 169,
+          "poster": "https://picsum.photos/seed/jawan/400/600"
+        },
+        {
+          "id": 28,
+          "title": "Animal",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "director": "Sandeep Reddy Vanga",
+          "cast": [
+            "Ranbir Kapoor",
+            "Rashmika Mandanna",
+            "Anil Kapoor"
+          ],
+          "rating": "A",
+          "duration_min": 201,
+          "poster": "https://picsum.photos/seed/animal/400/600"
+        },
+        {
+          "id": 29,
+          "title": "Dunki",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Comedy"
+          ],
+          "director": "Rajkumar Hirani",
+          "cast": [
+            "Shah Rukh Khan",
+            "Taapsee Pannu"
+          ],
+          "rating": "U/A",
+          "duration_min": 161,
+          "poster": "https://picsum.photos/seed/dunki/400/600"
+        },
+        {
+          "id": 30,
+          "title": "Stree",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Horror",
+            "Comedy"
+          ],
+          "director": "Amar Kaushik",
+          "cast": [
+            "Rajkummar Rao",
+            "Shraddha Kapoor"
+          ],
+          "rating": "U/A",
+          "duration_min": 129,
+          "poster": "https://picsum.photos/seed/stree/400/600"
+        },
+        {
+          "id": 31,
+          "title": "Stree 2",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Horror",
+            "Comedy"
+          ],
+          "director": "Amar Kaushik",
+          "cast": [
+            "Rajkummar Rao",
+            "Shraddha Kapoor",
+            "Tamannaah Bhatia"
+          ],
+          "rating": "U/A",
+          "duration_min": 135,
+          "poster": "https://picsum.photos/seed/stree2/400/600"
+        },
+        {
+          "id": 32,
+          "title": "Article 370",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Political Thriller",
+            "Drama"
+          ],
+          "director": "Aditya Suhas Jambhale",
+          "cast": [
+            "Yami Gautam",
+            "Priya Mani"
+          ],
+          "rating": "U/A",
+          "duration_min": 156,
+          "poster": "https://picsum.photos/seed/article370/400/600"
+        },
+        {
+          "id": 33,
+          "title": "Fighter",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "director": "Siddharth Anand",
+          "cast": [
+            "Hrithik Roshan",
+            "Deepika Padukone",
+            "Anil Kapoor"
+          ],
+          "rating": "U/A",
+          "duration_min": 166,
+          "poster": "https://picsum.photos/seed/fighter/400/600"
+        },
+        {
+          "id": 34,
+          "title": "Merry Christmas",
+          "year": 2024,
+          "language": "Hindi/Tamil",
+          "genre": [
+            "Thriller",
+            "Drama"
+          ],
+          "director": "Sriram Raghavan",
+          "cast": [
+            "Katrina Kaif",
+            "Vijay Sethupathi"
+          ],
+          "rating": "U/A",
+          "duration_min": 132,
+          "poster": "https://picsum.photos/seed/merrychristmas/400/600"
+        },
+        {
+          "id": 35,
+          "title": "Singham Returns",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "director": "Rohit Shetty",
+          "cast": [
+            "Ajay Devgn",
+            "Kareena Kapoor Khan",
+            "Deepika Padukone"
+          ],
+          "rating": "U/A",
+          "duration_min": 155,
+          "poster": "https://picsum.photos/seed/singhamreturns/400/600"
+        }
+      ],
+      "tamil": [
+        {
+          "id": 101,
+          "title": "Baahubali: The Beginning",
+          "year": 2015,
+          "language": "Tamil/Telugu",
+          "genre": [
+            "Action",
+            "Fantasy",
+            "Drama"
+          ],
+          "director": "S. S. Rajamouli",
+          "cast": [
+            "Prabhas",
+            "Rana Daggubati",
+            "Tamannaah Bhatia"
+          ],
+          "rating": "U/A",
+          "duration_min": 159,
+          "poster": "https://picsum.photos/seed/baahubalithebeginnin/400/600"
+        },
+        {
+          "id": 102,
+          "title": "Baahubali 2: The Conclusion",
+          "year": 2017,
+          "language": "Tamil/Telugu",
+          "genre": [
+            "Action",
+            "Fantasy",
+            "Drama"
+          ],
+          "director": "S. S. Rajamouli",
+          "cast": [
+            "Prabhas",
+            "Anushka Shetty",
+            "Rana Daggubati"
+          ],
+          "rating": "U/A",
+          "duration_min": 171,
+          "poster": "https://picsum.photos/seed/baahubali2theconclus/400/600"
+        },
+        {
+          "id": 103,
+          "title": "Vikram",
+          "year": 2022,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Lokesh Kanagaraj",
+          "cast": [
+            "Kamal Haasan",
+            "Vijay Sethupathi",
+            "Fahadh Faasil"
+          ],
+          "rating": "A",
+          "duration_min": 174,
+          "poster": "https://picsum.photos/seed/vikram/400/600"
+        },
+        {
+          "id": 104,
+          "title": "KGF: Chapter 1",
+          "year": 2018,
+          "language": "Kannada",
+          "genre": [
+            "Action",
+            "Drama",
+            "Historical"
+          ],
+          "director": "Prashanth Neel",
+          "cast": [
+            "Yash",
+            "Srinidhi Shetty"
+          ],
+          "rating": "A",
+          "duration_min": 156,
+          "poster": "https://picsum.photos/seed/kgfchapter1/400/600"
+        },
+        {
+          "id": 105,
+          "title": "KGF: Chapter 2",
+          "year": 2022,
+          "language": "Kannada",
+          "genre": [
+            "Action",
+            "Drama",
+            "Historical"
+          ],
+          "director": "Prashanth Neel",
+          "cast": [
+            "Yash",
+            "Sanjay Dutt",
+            "Raveena Tandon"
+          ],
+          "rating": "A",
+          "duration_min": 168,
+          "poster": "https://picsum.photos/seed/kgfchapter2/400/600"
+        },
+        {
+          "id": 106,
+          "title": "Enthiran",
+          "year": 2010,
+          "language": "Tamil",
+          "genre": [
+            "Science Fiction",
+            "Action"
+          ],
+          "director": "S. Shankar",
+          "cast": [
+            "Rajinikanth",
+            "Aishwarya Rai"
+          ],
+          "rating": "U/A",
+          "duration_min": 188,
+          "poster": "https://picsum.photos/seed/enthiran/400/600"
+        },
+        {
+          "id": 107,
+          "title": "2.0",
+          "year": 2018,
+          "language": "Tamil",
+          "genre": [
+            "Science Fiction",
+            "Action"
+          ],
+          "director": "S. Shankar",
+          "cast": [
+            "Rajinikanth",
+            "Amy Jackson",
+            "Akshay Kumar"
+          ],
+          "rating": "U/A",
+          "duration_min": 148,
+          "poster": "https://picsum.photos/seed/20/400/600"
+        },
+        {
+          "id": 108,
+          "title": "Master",
+          "year": 2021,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Drama"
+          ],
+          "director": "Lokesh Kanagaraj",
+          "cast": [
+            "Vijay",
+            "Vijay Sethupathi"
+          ],
+          "rating": "U/A",
+          "duration_min": 179,
+          "poster": "https://picsum.photos/seed/master/400/600"
+        },
+        {
+          "id": 109,
+          "title": "Mersal",
+          "year": 2017,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "director": "Atlee Kumar",
+          "cast": [
+            "Vijay",
+            "S. J. Suryah",
+            "Kajal Aggarwal"
+          ],
+          "rating": "U/A",
+          "duration_min": 167,
+          "poster": "https://picsum.photos/seed/mersal/400/600"
+        },
+        {
+          "id": 110,
+          "title": "Jailer",
+          "year": 2023,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Nelson Dilipkumar",
+          "cast": [
+            "Rajinikanth",
+            "Mohanlal",
+            "Jackie Shroff"
+          ],
+          "rating": "U/A",
+          "duration_min": 168,
+          "poster": "https://picsum.photos/seed/jailer/400/600"
+        },
+        {
+          "id": 111,
+          "title": "Leo",
+          "year": 2023,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+          ],
+          "director": "Lokesh Kanagaraj",
+          "cast": [
+            "Vijay",
+            "Trisha Krishnan",
+            "Sanjay Dutt"
+          ],
+          "rating": "A",
+          "duration_min": 164,
+          "poster": "https://picsum.photos/seed/leo/400/600"
+        },
+        {
+          "id": 112,
+          "title": "Kaithi",
+          "year": 2019,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Lokesh Kanagaraj",
+          "cast": [
+            "Karthi",
+            "Narain"
+          ],
+          "rating": "A",
+          "duration_min": 146,
+          "poster": "https://picsum.photos/seed/kaithi/400/600"
+        },
+        {
+          "id": 113,
+          "title": "96",
+          "year": 2018,
+          "language": "Tamil",
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "director": "C. Prem Kumar",
+          "cast": [
+            "Vijay Sethupathi",
+            "Trisha Krishnan"
+          ],
+          "rating": "U",
+          "duration_min": 158,
+          "poster": "https://picsum.photos/seed/96/400/600"
+        },
+        {
+          "id": 114,
+          "title": "Super Deluxe",
+          "year": 2019,
+          "language": "Tamil",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+          ],
+          "director": "Thiagarajan Kumararaja",
+          "cast": [
+            "Vijay Sethupathi",
+            "Fahadh Faasil",
+            "Samantha Ruth Prabhu"
+          ],
+          "rating": "A",
+          "duration_min": 175,
+          "poster": "https://picsum.photos/seed/superdeluxe/400/600"
+        },
+        {
+          "id": 115,
+          "title": "Soorarai Pottru",
+          "year": 2020,
+          "language": "Tamil",
+          "genre": [
+            "Drama",
+            "Biography"
+          ],
+          "director": "Sudha Kongara",
+          "cast": [
+            "Suriya",
+            "Aparna Balamurali"
+          ],
+          "rating": "U/A",
+          "duration_min": 153,
+          "poster": "https://picsum.photos/seed/sooraraipottru/400/600"
+        },
+        {
+          "id": 116,
+          "title": "Ponniyin Selvan: I",
+          "year": 2022,
+          "language": "Tamil",
+          "genre": [
+            "Historical",
+            "Drama",
+            "Action"
+          ],
+          "director": "Mani Ratnam",
+          "cast": [
+            "Vikram",
+            "Aishwarya Rai",
+            "Jayam Ravi"
+          ],
+          "rating": "U/A",
+          "duration_min": 167,
+          "poster": "https://picsum.photos/seed/ponniyinselvani/400/600"
+        },
+        {
+          "id": 117,
+          "title": "Ponniyin Selvan: II",
+          "year": 2023,
+          "language": "Tamil",
+          "genre": [
+            "Historical",
+            "Drama",
+            "Action"
+          ],
+          "director": "Mani Ratnam",
+          "cast": [
+            "Vikram",
+            "Aishwarya Rai",
+            "Trisha Krishnan"
+          ],
+          "rating": "U/A",
+          "duration_min": 139,
+          "poster": "https://picsum.photos/seed/ponniyinselvanii/400/600"
+        },
+        {
+          "id": 118,
+          "title": "Vettaiyan",
+          "year": 2024,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "director": "T. J. Gnanavel",
+          "cast": [
+            "Rajinikanth",
+            "Amitabh Bachchan",
+            "Fahadh Faasil"
+          ],
+          "rating": "U/A",
+          "duration_min": 175,
+          "poster": "https://picsum.photos/seed/vettaiyan/400/600"
+        },
+        {
+          "id": 119,
+          "title": "Mufasa: The Lion King (Tamil Dubbed)",
+          "year": 2024,
+          "language": "Tamil",
+          "genre": [
+            "Animation",
+            "Adventure"
+          ],
+          "director": "Barry Jenkins",
+          "cast": [
+            "Rajinikanth (Tamil voice)"
+          ],
+          "rating": "U",
+          "duration_min": 118,
+          "poster": "https://picsum.photos/seed/mufasathelionkingtam/400/600"
+        },
+        {
+          "id": 120,
+          "title": "Maharaja",
+          "year": 2024,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Thriller"
+          ],
+          "director": "Nithilan Swaminathan",
+          "cast": [
+            "Vijay Sethupathi",
+            "Anurag Kashyap",
+            "Mamitha Baiju"
+          ],
+          "rating": "A",
+          "duration_min": 148,
+          "poster": "https://picsum.photos/seed/maharaja/400/600"
+        }
+      ],
+      "telugu": [
+        {
+          "id": 201,
+          "title": "RRR",
+          "year": 2022,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Drama",
+            "Historical"
+          ],
+          "director": "S. S. Rajamouli",
+          "cast": [
+            "N. T. Rama Rao Jr.",
+            "Ram Charan",
+            "Alia Bhatt",
+            "Ajay Devgn"
+          ],
+          "rating": "U/A",
+          "duration_min": 187,
+          "poster": "https://picsum.photos/seed/rrr/400/600"
+        },
+        {
+          "id": 202,
+          "title": "Pushpa: The Rise",
+          "year": 2021,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "director": "Sukumar",
+          "cast": [
+            "Allu Arjun",
+            "Rashmika Mandanna",
+            "Fahadh Faasil"
+          ],
+          "rating": "U/A",
+          "duration_min": 179,
+          "poster": "https://picsum.photos/seed/pushpatherise/400/600"
+        },
+        {
+          "id": 203,
+          "title": "Pushpa 2: The Rule",
+          "year": 2024,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+          ],
+          "director": "Sukumar",
+          "cast": [
+            "Allu Arjun",
+            "Rashmika Mandanna",
+            "Fahadh Faasil"
+          ],
+          "rating": "A",
+          "duration_min": 190,
+          "poster": "https://picsum.photos/seed/pushpa2therule/400/600"
+        },
+        {
+          "id": 204,
+          "title": "Arjun Reddy",
+          "year": 2017,
+          "language": "Telugu",
+          "genre": [
+            "Drama",
+            "Romance"
+          ],
+          "director": "Sandeep Reddy Vanga",
+          "cast": [
+            "Vijay Deverakonda",
+            "Shalini Pandey"
+          ],
+          "rating": "A",
+          "duration_min": 184,
+          "poster": "https://picsum.photos/seed/arjunreddy/400/600"
+        },
+        {
+          "id": 205,
+          "title": "Devara: Part 1",
+          "year": 2024,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+          ],
+          "director": "Koratala Siva",
+          "cast": [
+            "N. T. Rama Rao Jr.",
+            "Saif Ali Khan",
+            "Janhvi Kapoor"
+          ],
+          "rating": "U/A",
+          "duration_min": 166,
+          "poster": "https://picsum.photos/seed/devarapart1/400/600"
+        },
+        {
+          "id": 206,
+          "title": "Kalki 2898 AD",
+          "year": 2024,
+          "language": "Telugu",
+          "genre": [
+            "Science Fiction",
+            "Action",
+            "Mythology"
+          ],
+          "director": "Nag Ashwin",
+          "cast": [
+            "Prabhas",
+            "Deepika Padukone",
+            "Amitabh Bachchan",
+            "Kamal Haasan"
+          ],
+          "rating": "U/A",
+          "duration_min": 181,
+          "poster": "https://picsum.photos/seed/kalki2898ad/400/600"
+        },
+        {
+          "id": 207,
+          "title": "Ala Vaikunthapurramuloo",
+          "year": 2020,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "director": "Trivikram Srinivas",
+          "cast": [
+            "Allu Arjun",
+            "Pooja Hegde"
+          ],
+          "rating": "U",
+          "duration_min": 175,
+          "poster": "https://picsum.photos/seed/alavaikunthapurramul/400/600"
+        },
+        {
+          "id": 208,
+          "title": "Shyam Singha Roy",
+          "year": 2021,
+          "language": "Telugu",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Supernatural"
+          ],
+          "director": "Rahul Sankrityan",
+          "cast": [
+            "Nani",
+            "Sai Pallavi",
+            "Krithi Shetty"
+          ],
+          "rating": "U/A",
+          "duration_min": 160,
+          "poster": "https://picsum.photos/seed/shyamsingharoy/400/600"
+        },
+        {
+          "id": 209,
+          "title": "Bheemla Nayak",
+          "year": 2022,
+          "language": "Telugu",
+          "genre": [
+            "Action",
+            "Drama"
+          ],
+          "director": "Saagar K Chandra",
+          "cast": [
+            "Pawan Kalyan",
+            "Rana Daggubati"
+          ],
+          "rating": "U/A",
+          "duration_min": 155,
+          "poster": "https://picsum.photos/seed/bheemlanayak/400/600"
+        },
+        {
+          "id": 210,
+          "title": "Hanu-Man",
+          "year": 2024,
+          "language": "Telugu",
+          "genre": [
+            "Superhero",
+            "Action",
+            "Fantasy"
+          ],
+          "director": "Prasanth Varma",
+          "cast": [
+            "Teja Sajja",
+            "Amritha Aiyer"
+          ],
+          "rating": "U",
+          "duration_min": 154,
+          "poster": "https://picsum.photos/seed/hanuman/400/600"
+        }
+      ],
+      "malayalam": [
+        {
+          "id": 301,
+          "title": "Drishyam",
+          "year": 2013,
+          "language": "Malayalam",
+          "genre": [
+            "Thriller",
+            "Drama",
+            "Crime"
+          ],
+          "director": "Jeethu Joseph",
+          "cast": [
+            "Mohanlal",
+            "Meena"
+          ],
+          "rating": "U/A",
+          "duration_min": 160,
+          "poster": "https://picsum.photos/seed/drishyam/400/600"
+        },
+        {
+          "id": 302,
+          "title": "Premam",
+          "year": 2015,
+          "language": "Malayalam",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Comedy"
+          ],
+          "director": "Alphonse Puthren",
+          "cast": [
+            "Nivin Pauly",
+            "Madonna Sebastian",
+            "Anupama Parameswaran"
+          ],
+          "rating": "U",
+          "duration_min": 159,
+          "poster": "https://picsum.photos/seed/premam/400/600"
+        },
+        {
+          "id": 303,
+          "title": "Bangalore Days",
+          "year": 2014,
+          "language": "Malayalam",
+          "genre": [
+            "Drama",
+            "Romance",
+            "Comedy"
+          ],
+          "director": "Anjali Menon",
+          "cast": [
+            "Dulquer Salmaan",
+            "Fahadh Faasil",
+            "Nazriya Nazim"
+          ],
+          "rating": "U",
+          "duration_min": 179,
+          "poster": "https://picsum.photos/seed/bangaloredays/400/600"
+        },
+        {
+          "id": 304,
+          "title": "Lucifer",
+          "year": 2019,
+          "language": "Malayalam",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Political"
+          ],
+          "director": "Prithviraj Sukumaran",
+          "cast": [
+            "Mohanlal",
+            "Vivek Oberoi",
+            "Manju Warrier"
+          ],
+          "rating": "U/A",
+          "duration_min": 173,
+          "poster": "https://picsum.photos/seed/lucifer/400/600"
+        },
+        {
+          "id": 305,
+          "title": "Minnal Murali",
+          "year": 2021,
+          "language": "Malayalam",
+          "genre": [
+            "Superhero",
+            "Drama",
+            "Comedy"
+          ],
+          "director": "Basil Paulose",
+          "cast": [
+            "Tovino Thomas",
+            "Guru Somasundaram"
+          ],
+          "rating": "U/A",
+          "duration_min": 158,
+          "poster": "https://picsum.photos/seed/minnalmurali/400/600"
+        },
+        {
+          "id": 306,
+          "title": "Manjummel Boys",
+          "year": 2024,
+          "language": "Malayalam",
+          "genre": [
+            "Adventure",
+            "Drama",
+            "Thriller"
+          ],
+          "director": "Chidambaram",
+          "cast": [
+            "Soubin Shahir",
+            "Sreenath Bhasi"
+          ],
+          "rating": "U/A",
+          "duration_min": 135,
+          "poster": "https://picsum.photos/seed/manjummelboys/400/600"
+        },
+        {
+          "id": 307,
+          "title": "Aavesham",
+          "year": 2024,
+          "language": "Malayalam",
+          "genre": [
+            "Action",
+            "Comedy",
+            "Crime"
+          ],
+          "director": "Jithu Madhavan",
+          "cast": [
+            "Fahadh Faasil",
+            "Hipzster"
+          ],
+          "rating": "U/A",
+          "duration_min": 162,
+          "poster": "https://picsum.photos/seed/aavesham/400/600"
+        },
+        {
+          "id": 308,
+          "title": "Aadujeevitham",
+          "year": 2024,
+          "language": "Malayalam",
+          "genre": [
+            "Survival",
+            "Drama",
+            "Biography"
+          ],
+          "director": "Blessy",
+          "cast": [
+            "Prithviraj Sukumaran",
+            "Amala Paul"
+          ],
+          "rating": "U/A",
+          "duration_min": 175,
+          "poster": "https://picsum.photos/seed/aadujeevitham/400/600"
+        },
+        {
+          "id": 309,
+          "title": "Bramayugam",
+          "year": 2024,
+          "language": "Malayalam",
+          "genre": [
+            "Horror",
+            "Thriller"
+          ],
+          "director": "Rahul Sadasivan",
+          "cast": [
+            "Mammootty",
+            "Arjun Ashokan"
+          ],
+          "rating": "A",
+          "duration_min": 122,
+          "poster": "https://picsum.photos/seed/bramayugam/400/600"
+        },
+        {
+          "id": 310,
+          "title": "Kishkindha Kaandam",
+          "year": 2024,
+          "language": "Malayalam",
+          "genre": [
+            "Thriller",
+            "Drama",
+            "Mystery"
+          ],
+          "director": "Dinjith Ayyathan",
+          "cast": [
+            "Asif Ali",
+            "Aparna Balamurali"
+          ],
+          "rating": "U/A",
+          "duration_min": 150,
+          "poster": "https://picsum.photos/seed/kishkindhakaandam/400/600"
+        }
+      ],
+      "kannada": [
+        {
+          "id": 401,
+          "title": "Ugramm",
+          "year": 2014,
+          "language": "Kannada",
+          "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+          ],
+          "director": "Prashanth Neel",
+          "cast": [
+            "Sri Murali",
+            "Haripriya"
+          ],
+          "rating": "A",
+          "duration_min": 145,
+          "poster": "https://picsum.photos/seed/ugramm/400/600"
+        },
+        {
+          "id": 402,
+          "title": "Vikrant Rona",
+          "year": 2022,
+          "language": "Kannada",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ],
+          "director": "Anup Bhandari",
+          "cast": [
+            "Kichcha Sudeep",
+            "Jacqueline Fernandez"
+          ],
+          "rating": "U/A",
+          "duration_min": 161,
+          "poster": "https://picsum.photos/seed/vikrantrona/400/600"
+        },
+        {
+          "id": 403,
+          "title": "777 Charlie",
+          "year": 2022,
+          "language": "Kannada",
+          "genre": [
+            "Drama",
+            "Adventure",
+            "Comedy"
+          ],
+          "director": "Kiranraj K",
+          "cast": [
+            "Rakshit Shetty"
+          ],
+          "rating": "U",
+          "duration_min": 168,
+          "poster": "https://picsum.photos/seed/777charlie/400/600"
+        },
+        {
+          "id": 404,
+          "title": "Kantara",
+          "year": 2022,
+          "language": "Kannada",
+          "genre": [
+            "Mythological",
+            "Action",
+            "Thriller"
+          ],
+          "director": "Rishab Shetty",
+          "cast": [
+            "Rishab Shetty",
+            "Sapthami Gowda"
+          ],
+          "rating": "A",
+          "duration_min": 150,
+          "poster": "https://picsum.photos/seed/kantara/400/600"
+        },
+        {
+          "id": 405,
+          "title": "UI",
+          "year": 2024,
+          "language": "Kannada",
+          "genre": [
+            "Science Fiction",
+            "Action",
+            "Thriller"
+          ],
+          "director": "Upendra",
+          "cast": [
+            "Upendra",
+            "Reetu"
+          ],
+          "rating": "U/A",
+          "duration_min": 155,
+          "poster": "https://picsum.photos/seed/ui/400/600"
+        }
+      ],
+      "marathi": [
+        {
+          "id": 501,
+          "title": "Sairat",
+          "year": 2016,
+          "language": "Marathi",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Social"
+          ],
+          "director": "Nagraj Manjule",
+          "cast": [
+            "Rinku Rajguru",
+            "Akash Thosar"
+          ],
+          "rating": "U/A",
+          "duration_min": 174,
+          "poster": "https://picsum.photos/seed/sairat/400/600"
+        },
+        {
+          "id": 502,
+          "title": "Natsamrat",
+          "year": 2016,
+          "language": "Marathi",
+          "genre": [
+            "Drama"
+          ],
+          "director": "Mahesh Manjrekar",
+          "cast": [
+            "Nana Patekar",
+            "Vikram Gokhale"
+          ],
+          "rating": "U",
+          "duration_min": 182,
+          "poster": "https://picsum.photos/seed/natsamrat/400/600"
+        },
+        {
+          "id": 503,
+          "title": "Fandry",
+          "year": 2013,
+          "language": "Marathi",
+          "genre": [
+            "Social Drama"
+          ],
+          "director": "Nagraj Manjule",
+          "cast": [
+            "Somnath Avghade"
+          ],
+          "rating": "U/A",
+          "duration_min": 100,
+          "poster": "https://picsum.photos/seed/fandry/400/600"
+        },
+        {
+          "id": 504,
+          "title": "Deool Band",
+          "year": 2015,
+          "language": "Marathi",
+          "genre": [
+            "Comedy",
+            "Drama"
+          ],
+          "director": "Samit Kakkad",
+          "cast": [
+            "Subodh Bhave",
+            "Mohan Joshi"
+          ],
+          "rating": "U",
+          "duration_min": 120,
+          "poster": "https://picsum.photos/seed/deoolband/400/600"
+        },
+        {
+          "id": 505,
+          "title": "Jhund",
+          "year": 2022,
+          "language": "Hindi/Marathi",
+          "genre": [
+            "Sports",
+            "Drama",
+            "Biography"
+          ],
+          "director": "Nagraj Manjule",
+          "cast": [
+            "Amitabh Bachchan"
+          ],
+          "rating": "U",
+          "duration_min": 173,
+          "poster": "https://picsum.photos/seed/jhund/400/600"
+        }
+      ],
+      "punjabi": [
+        {
+          "id": 601,
+          "title": "Angrej",
+          "year": 2015,
+          "language": "Punjabi",
+          "genre": [
+            "Romance",
+            "Comedy",
+            "Historical"
+          ],
+          "director": "Simerjit Singh",
+          "cast": [
+            "Amrinder Gill",
+            "Aditi Sharma"
+          ],
+          "rating": "U",
+          "duration_min": 140,
+          "poster": "https://picsum.photos/seed/angrej/400/600"
+        },
+        {
+          "id": 602,
+          "title": "Jatt & Juliet",
+          "year": 2012,
+          "language": "Punjabi",
+          "genre": [
+            "Romance",
+            "Comedy"
+          ],
+          "director": "Anurag Singh",
+          "cast": [
+            "Diljit Dosanjh",
+            "Neeru Bajwa"
+          ],
+          "rating": "U",
+          "duration_min": 130,
+          "poster": "https://picsum.photos/seed/jattjuliet/400/600"
+        },
+        {
+          "id": 603,
+          "title": "Qismat",
+          "year": 2018,
+          "language": "Punjabi",
+          "genre": [
+            "Romance",
+            "Drama"
+          ],
+          "director": "Jagdeep Sidhu",
+          "cast": [
+            "Ammy Virk",
+            "Sargun Mehta"
+          ],
+          "rating": "U",
+          "duration_min": 135,
+          "poster": "https://picsum.photos/seed/qismat/400/600"
+        },
+        {
+          "id": 604,
+          "title": "Chal Mera Putt",
+          "year": 2019,
+          "language": "Punjabi",
+          "genre": [
+            "Comedy",
+            "Drama"
+          ],
+          "director": "Janjot Singh",
+          "cast": [
+            "Amrinder Gill",
+            "Simi Chahal"
+          ],
+          "rating": "U",
+          "duration_min": 127,
+          "poster": "https://picsum.photos/seed/chalmeraputt/400/600"
+        },
+        {
+          "id": 605,
+          "title": "Sardar Ji",
+          "year": 2015,
+          "language": "Punjabi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Fantasy"
+          ],
+          "director": "Rohit Jugraj",
+          "cast": [
+            "Diljit Dosanjh",
+            "Neeru Bajwa",
+            "Monica Gill"
+          ],
+          "rating": "U",
+          "duration_min": 137,
+          "poster": "https://picsum.photos/seed/sardarji/400/600"
+        }
+      ]
+    },
+    "web_series_and_shows": {
+      "hindi": [
+        {
+          "id": 1001,
+          "title": "Sacred Games",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Mystery"
+          ],
+          "platform": "Netflix",
+          "seasons": 2,
+          "episodes": 16,
+          "cast": [
+            "Saif Ali Khan",
+            "Nawazuddin Siddiqui",
+            "Pankaj Tripathi"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/sacredgames/400/600"
+        },
+        {
+          "id": 1002,
+          "title": "Mirzapur",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 3,
+          "episodes": 30,
+          "cast": [
+            "Ali Fazal",
+            "Pankaj Tripathi",
+            "Vikrant Massey"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/mirzapur/400/600"
+        },
+        {
+          "id": 1003,
+          "title": "Panchayat",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Slice of Life"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 3,
+          "episodes": 24,
+          "cast": [
+            "Jitendra Kumar",
+            "Raghubir Yadav",
+            "Neena Gupta"
+          ],
+          "rating": "U",
+          "poster": "https://picsum.photos/seed/panchayat/400/600"
+        },
+        {
+          "id": 1004,
+          "title": "Scam 1992: The Harshad Mehta Story",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+          ],
+          "platform": "SonyLIV",
+          "seasons": 1,
+          "episodes": 10,
+          "cast": [
+            "Pratik Gandhi",
+            "Shreya Dhanwanthary"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/scam1992theharshadme/400/600"
+        },
+        {
+          "id": 1005,
+          "title": "Delhi Crime",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 2,
+          "episodes": 13,
+          "cast": [
+            "Shefali Shah",
+            "Rasika Dugal",
+            "Adil Hussain"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/delhicrime/400/600"
+        },
+        {
+          "id": 1006,
+          "title": "Kota Factory",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Educational"
+          ],
+          "platform": "TVF / Netflix",
+          "seasons": 3,
+          "episodes": 18,
+          "cast": [
+            "Jitendra Kumar",
+            "Mayur More",
+            "Ranjan Raj"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/kotafactory/400/600"
+        },
+        {
+          "id": 1007,
+          "title": "Patal Lok",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Neo-Noir"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 1,
+          "episodes": 9,
+          "cast": [
+            "Jaideep Ahlawat",
+            "Neeraj Kabi"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/patallok/400/600"
+        },
+        {
+          "id": 1008,
+          "title": "Aspirants",
+          "year": 2021,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Educational"
+          ],
+          "platform": "TVF / YouTube",
+          "seasons": 1,
+          "episodes": 5,
+          "cast": [
+            "Naveen Kasturia",
+            "Abhilash Thapliyal",
+            "Sunny Hinduja"
+          ],
+          "rating": "U",
+          "poster": "https://picsum.photos/seed/aspirants/400/600"
+        },
+        {
+          "id": 1009,
+          "title": "The Family Man",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Thriller",
+            "Spy",
+            "Action",
+            "Drama"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 2,
+          "episodes": 19,
+          "cast": [
+            "Manoj Bajpayee",
+            "Samantha Ruth Prabhu",
+            "Priyamani"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/thefamilyman/400/600"
+        },
+        {
+          "id": 1010,
+          "title": "Jamtara: Sabka Number Ayega",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 2,
+          "episodes": 18,
+          "cast": [
+            "Monika Panwar",
+            "Sparsh Srivastav"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/jamtarasabkanumberay/400/600"
+        },
+        {
+          "id": 1011,
+          "title": "Breathe: Into the Shadows",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Thriller",
+            "Crime",
+            "Drama"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 2,
+          "episodes": 24,
+          "cast": [
+            "Abhishek Bachchan",
+            "Amit Sadh",
+            "Nithya Menen"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/breatheintotheshadow/400/600"
+        },
+        {
+          "id": 1012,
+          "title": "TVF Pitchers",
+          "year": 2015,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Startup"
+          ],
+          "platform": "TVF / Netflix",
+          "seasons": 2,
+          "episodes": 10,
+          "cast": [
+            "Naveen Kasturia",
+            "Arunabh Kumar",
+            "Jitendra Kumar"
+          ],
+          "rating": "U",
+          "poster": "https://picsum.photos/seed/tvfpitchers/400/600"
+        },
+        {
+          "id": 1013,
+          "title": "Aarya",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 3,
+          "episodes": 21,
+          "cast": [
+            "Sushmita Sen",
+            "Chandrachur Singh"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/aarya/400/600"
+        },
+        {
+          "id": 1014,
+          "title": "Rocket Boys",
+          "year": 2022,
+          "language": "Hindi",
+          "genre": [
+            "Biography",
+            "Historical",
+            "Drama"
+          ],
+          "platform": "SonyLIV",
+          "seasons": 2,
+          "episodes": 16,
+          "cast": [
+            "Jim Sarbh",
+            "Ishwak Singh",
+            "Regina Cassandra"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/rocketboys/400/600"
+        },
+        {
+          "id": 1015,
+          "title": "Heeramandi: The Diamond Bazaar",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Historical",
+            "Drama",
+            "Romance"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Manisha Koirala",
+            "Sonakshi Sinha",
+            "Richa Chadha"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/heeramandithediamond/400/600"
+        },
+        {
+          "id": 1016,
+          "title": "Lootere",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 1,
+          "episodes": 9,
+          "cast": [
+            "Hansal Mehta",
+            "Rajiv Kapoor"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/lootere/400/600"
+        },
+        {
+          "id": 1017,
+          "title": "IC 814: The Kandahar Hijack",
+          "year": 2024,
+          "language": "Hindi",
+          "genre": [
+            "Thriller",
+            "Historical",
+            "Drama"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 6,
+          "cast": [
+            "Vijay Varma",
+            "Naseeruddin Shah",
+            "Pankaj Kapur"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/ic814thekandaharhija/400/600"
+        },
+        {
+          "id": 1018,
+          "title": "Khakee: The Bihar Chapter",
+          "year": 2022,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Karan Tacker",
+            "Avinash Tiwary"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/khakeethebiharchapte/400/600"
+        },
+        {
+          "id": 1019,
+          "title": "Rana Naidu",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Action"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Rana Daggubati",
+            "Venkatesh Daggubati"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/rananaidu/400/600"
+        },
+        {
+          "id": 1020,
+          "title": "Bambai Meri Jaan",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 1,
+          "episodes": 10,
+          "cast": [
+            "Vijay Varma",
+            "Kay Kay Menon"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/bambaimerijaan/400/600"
+        },
+        {
+          "id": 1021,
+          "title": "Guns & Gulaabs",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Crime",
+            "Drama"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 7,
+          "cast": [
+            "Dulquer Salmaan",
+            "Rajkummar Rao",
+            "Gulshan Devaiah"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/gunsgulaabs/400/600"
+        },
+        {
+          "id": 1022,
+          "title": "Kohrra",
+          "year": 2023,
+          "language": "Hindi/Punjabi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 6,
+          "cast": [
+            "Barun Sobti",
+            "Suvinder Vicky"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/kohrra/400/600"
+        },
+        {
+          "id": 1023,
+          "title": "Criminal Justice",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Legal Thriller",
+            "Drama",
+            "Crime"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 3,
+          "episodes": 30,
+          "cast": [
+            "Pankaj Tripathi",
+            "Vikrant Massey",
+            "Rucha Inamdar"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/criminaljustice/400/600"
+        },
+        {
+          "id": 1024,
+          "title": "Special Ops",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Spy",
+            "Thriller",
+            "Action"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Kay Kay Menon",
+            "Divyapal Singh"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/specialops/400/600"
+        },
+        {
+          "id": 1025,
+          "title": "Four More Shots Please!",
+          "year": 2019,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Comedy",
+            "Romance"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 3,
+          "episodes": 30,
+          "cast": [
+            "Kirti Kulhari",
+            "Sayani Gupta",
+            "Bani J",
+            "Maanvi Gagroo"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/fourmoreshotsplease/400/600"
+        },
+        {
+          "id": 1026,
+          "title": "Grahan",
+          "year": 2021,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Historical",
+            "Thriller"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Pawan Malhotra",
+            "Wamiqa Gabbi",
+            "Zahan Kapoor"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/grahan/400/600"
+        },
+        {
+          "id": 1027,
+          "title": "Scoop",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Biography"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 7,
+          "cast": [
+            "Karishma Tanna",
+            "Harman Baweja",
+            "Mohammed Zeeshan Ayyub"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/scoop/400/600"
+        },
+        {
+          "id": 1028,
+          "title": "Delhi Crime Season 2",
+          "year": 2022,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 6,
+          "cast": [
+            "Shefali Shah",
+            "Rasika Dugal"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/delhicrimeseason2/400/600"
+        },
+        {
+          "id": 1029,
+          "title": "Farzi",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Crime",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Shahid Kapoor",
+            "Vijay Sethupathi",
+            "Kay Kay Menon"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/farzi/400/600"
+        },
+        {
+          "id": 1030,
+          "title": "Jubilee",
+          "year": 2023,
+          "language": "Hindi",
+          "genre": [
+            "Historical Drama",
+            "Film Noir"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 1,
+          "episodes": 10,
+          "cast": [
+            "Prosenjit Chatterjee",
+            "Aditi Rao Hydari",
+            "Aparshakti Khurana"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/jubilee/400/600"
+        }
+      ],
+      "tamil_telugu": [
+        {
+          "id": 2001,
+          "title": "Suzhal: The Vortex",
+          "year": 2022,
+          "language": "Tamil",
+          "genre": [
+            "Crime",
+            "Thriller"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 2,
+          "episodes": 16,
+          "cast": [
+            "Kathir",
+            "Aishwarya Rajesh"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/suzhalthevortex/400/600"
+        },
+        {
+          "id": 2002,
+          "title": "Navarasa",
+          "year": 2021,
+          "language": "Tamil",
+          "genre": [
+            "Anthology",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 9,
+          "cast": [
+            "Vijay Sethupathi",
+            "Suriya",
+            "Arvind Swami"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/navarasa/400/600"
+        },
+        {
+          "id": 2003,
+          "title": "Farzi (Tamil)",
+          "year": 2023,
+          "language": "Tamil",
+          "genre": [
+            "Crime",
+            "Thriller"
+          ],
+          "platform": "Amazon Prime Video",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Dhanush",
+            "Vijay Sethupathi"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/farzitamil/400/600"
+        },
+        {
+          "id": 2004,
+          "title": "Aarya (Tamil)",
+          "year": 2022,
+          "language": "Tamil",
+          "genre": [
+            "Action",
+            "Comedy",
+            "Drama"
+          ],
+          "platform": "Disney+ Hotstar",
+          "seasons": 3,
+          "episodes": 20,
+          "cast": [
+            "Chiyaan Vikram"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/aaryatamil/400/600"
+        },
+        {
+          "id": 2005,
+          "title": "Rudra (Telugu)",
+          "year": 2022,
+          "language": "Telugu",
+          "genre": [
+            "Supernatural",
+            "Thriller",
+            "Drama"
+          ],
+          "platform": "SonyLIV",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Anushka Shetty",
+            "Prashanth"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/rudratelugu/400/600"
+        }
+      ],
+      "malayalam": [
+        {
+          "id": 3001,
+          "title": "Oru Bhayankara Kamukan",
+          "year": 2019,
+          "language": "Malayalam",
+          "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "SonyLIV",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "Indrajith Sukumaran"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/orubhayankarakamukan/400/600"
+        },
+        {
+          "id": 3002,
+          "title": "Chathurmukham",
+          "year": 2021,
+          "language": "Malayalam",
+          "genre": [
+            "Horror",
+            "Thriller"
+          ],
+          "platform": "ShemarooMe",
+          "seasons": 1,
+          "episodes": 6,
+          "cast": [
+            "Siddique",
+            "Niranjana Anoop"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/chathurmukham/400/600"
+        },
+        {
+          "id": 3003,
+          "title": "Puzhu",
+          "year": 2022,
+          "language": "Malayalam",
+          "genre": [
+            "Drama",
+            "Social Thriller"
+          ],
+          "platform": "SonyLIV",
+          "seasons": 1,
+          "episodes": 7,
+          "cast": [
+            "Mammootty",
+            "Parvathy Thiruvothu"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/puzhu/400/600"
+        }
+      ],
+      "reality_and_game_shows": [
+        {
+          "id": 4001,
+          "title": "Bigg Boss (Hindi)",
+          "language": "Hindi",
+          "genre": [
+            "Reality",
+            "Game Show"
+          ],
+          "platform": "Colors TV / JioCinema",
+          "host": "Salman Khan",
+          "seasons_aired": 17,
+          "poster": "https://picsum.photos/seed/biggbosshindi/400/600"
+        },
+        {
+          "id": 4002,
+          "title": "Bigg Boss OTT",
+          "language": "Hindi",
+          "genre": [
+            "Reality",
+            "Game Show"
+          ],
+          "platform": "JioCinema",
+          "host": "Salman Khan",
+          "seasons_aired": 3,
+          "poster": "https://picsum.photos/seed/biggbossott/400/600"
+        },
+        {
+          "id": 4003,
+          "title": "Kaun Banega Crorepati",
+          "language": "Hindi",
+          "genre": [
+            "Quiz",
+            "Game Show"
+          ],
+          "platform": "Sony Entertainment Television",
+          "host": "Amitabh Bachchan",
+          "seasons_aired": 15,
+          "poster": "https://picsum.photos/seed/kaunbanegacrorepati/400/600"
+        },
+        {
+          "id": 4004,
+          "title": "Dance India Dance",
+          "language": "Hindi",
+          "genre": [
+            "Dance",
+            "Reality"
+          ],
+          "platform": "Zee TV",
+          "host": "Various",
+          "seasons_aired": 8,
+          "poster": "https://picsum.photos/seed/danceindiadance/400/600"
+        },
+        {
+          "id": 4005,
+          "title": "Indian Idol",
+          "language": "Hindi",
+          "genre": [
+            "Singing",
+            "Reality",
+            "Competition"
+          ],
+          "platform": "Sony Entertainment Television",
+          "host": "Various",
+          "seasons_aired": 14,
+          "poster": "https://picsum.photos/seed/indianidol/400/600"
+        },
+        {
+          "id": 4006,
+          "title": "The Kapil Sharma Show",
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Talk Show"
+          ],
+          "platform": "Sony Entertainment Television",
+          "host": "Kapil Sharma",
+          "seasons_aired": 4,
+          "poster": "https://picsum.photos/seed/thekapilsharmashow/400/600"
+        },
+        {
+          "id": 4007,
+          "title": "Super Dancer",
+          "language": "Hindi",
+          "genre": [
+            "Dance",
+            "Reality",
+            "Kids"
+          ],
+          "platform": "Sony Entertainment Television",
+          "host": "Various",
+          "seasons_aired": 4,
+          "poster": "https://picsum.photos/seed/superdancer/400/600"
+        },
+        {
+          "id": 4008,
+          "title": "Jhalak Dikhhla Jaa",
+          "language": "Hindi",
+          "genre": [
+            "Dance",
+            "Reality",
+            "Celebrity"
+          ],
+          "platform": "Colors TV",
+          "host": "Various",
+          "seasons_aired": 11,
+          "poster": "https://picsum.photos/seed/jhalakdikhhlajaa/400/600"
+        },
+        {
+          "id": 4009,
+          "title": "Koffee with Karan",
+          "language": "Hindi",
+          "genre": [
+            "Talk Show",
+            "Celebrity"
+          ],
+          "platform": "Disney+ Hotstar",
+          "host": "Karan Johar",
+          "seasons_aired": 8,
+          "poster": "https://picsum.photos/seed/koffeewithkaran/400/600"
+        },
+        {
+          "id": 4010,
+          "title": "Sa Re Ga Ma Pa",
+          "language": "Hindi",
+          "genre": [
+            "Singing",
+            "Reality",
+            "Competition"
+          ],
+          "platform": "Zee TV",
+          "host": "Various",
+          "seasons_aired": 20,
+          "poster": "https://picsum.photos/seed/saregamapa/400/600"
+        },
+        {
+          "id": 4011,
+          "title": "Shark Tank India",
+          "language": "Hindi",
+          "genre": [
+            "Business",
+            "Reality",
+            "Competition"
+          ],
+          "platform": "Sony Entertainment Television",
+          "host": "Various entrepreneurs",
+          "seasons_aired": 4,
+          "poster": "https://picsum.photos/seed/sharktankindia/400/600"
+        },
+        {
+          "id": 4012,
+          "title": "Roadies",
+          "language": "Hindi",
+          "genre": [
+            "Adventure",
+            "Reality",
+            "Game Show"
+          ],
+          "platform": "MTV India",
+          "host": "Various",
+          "seasons_aired": 20,
+          "poster": "https://picsum.photos/seed/roadies/400/600"
+        }
+      ],
+      "daily_soaps_and_drama": [
+        {
+          "id": 5001,
+          "title": "Anupamaa",
+          "language": "Hindi",
+          "genre": [
+            "Family Drama",
+            "Social"
+          ],
+          "platform": "Star Plus / Disney+ Hotstar",
+          "network": "Star Plus",
+          "year_started": 2020,
+          "poster": "https://picsum.photos/seed/anupamaa/400/600"
+        },
+        {
+          "id": 5002,
+          "title": "Yeh Rishta Kya Kehlata Hai",
+          "language": "Hindi",
+          "genre": [
+            "Family Drama",
+            "Romance"
+          ],
+          "platform": "Star Plus / Disney+ Hotstar",
+          "network": "Star Plus",
+          "year_started": 2009,
+          "poster": "https://picsum.photos/seed/yehrishtakyakehlatah/400/600"
+        },
+        {
+          "id": 5003,
+          "title": "Kumkum Bhagya",
+          "language": "Hindi",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Family"
+          ],
+          "platform": "Zee TV / ZEE5",
+          "network": "Zee TV",
+          "year_started": 2014,
+          "poster": "https://picsum.photos/seed/kumkumbhagya/400/600"
+        },
+        {
+          "id": 5004,
+          "title": "Kundali Bhagya",
+          "language": "Hindi",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Zee TV / ZEE5",
+          "network": "Zee TV",
+          "year_started": 2017,
+          "poster": "https://picsum.photos/seed/kundalibhagya/400/600"
+        },
+        {
+          "id": 5005,
+          "title": "Taarak Mehta Ka Ooltah Chashmah",
+          "language": "Hindi",
+          "genre": [
+            "Sitcom",
+            "Comedy",
+            "Family"
+          ],
+          "platform": "SAB TV / SonyLIV",
+          "network": "SAB TV",
+          "year_started": 2008,
+          "poster": "https://picsum.photos/seed/taarakmehtakaooltahc/400/600"
+        },
+        {
+          "id": 5006,
+          "title": "Ghum Hai Kisikey Pyaar Meiin",
+          "language": "Hindi",
+          "genre": [
+            "Romance",
+            "Drama",
+            "Family"
+          ],
+          "platform": "Star Plus / Disney+ Hotstar",
+          "network": "Star Plus",
+          "year_started": 2020,
+          "poster": "https://picsum.photos/seed/ghumhaikisikeypyaarm/400/600"
+        },
+        {
+          "id": 5007,
+          "title": "Imlie",
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Romance",
+            "Social"
+          ],
+          "platform": "Star Plus / Disney+ Hotstar",
+          "network": "Star Plus",
+          "year_started": 2021,
+          "poster": "https://picsum.photos/seed/imlie/400/600"
+        },
+        {
+          "id": 5008,
+          "title": "Balika Vadhu",
+          "language": "Hindi",
+          "genre": [
+            "Social Drama",
+            "Family"
+          ],
+          "platform": "Colors TV / JioCinema",
+          "network": "Colors TV",
+          "year_started": 2008,
+          "poster": "https://picsum.photos/seed/balikavadhu/400/600"
+        },
+        {
+          "id": 5009,
+          "title": "Sasural Simar Ka",
+          "language": "Hindi",
+          "genre": [
+            "Family Drama",
+            "Romance"
+          ],
+          "platform": "Colors TV / JioCinema",
+          "network": "Colors TV",
+          "year_started": 2011,
+          "poster": "https://picsum.photos/seed/sasuralsimarka/400/600"
+        },
+        {
+          "id": 5010,
+          "title": "Naagin",
+          "language": "Hindi",
+          "genre": [
+            "Fantasy",
+            "Supernatural",
+            "Drama"
+          ],
+          "platform": "Colors TV / JioCinema",
+          "network": "Colors TV",
+          "year_started": 2015,
+          "poster": "https://picsum.photos/seed/naagin/400/600"
+        }
+      ],
+      "anthology_and_mini_series": [
+        {
+          "id": 6001,
+          "title": "Lust Stories",
+          "year": 2018,
+          "language": "Hindi",
+          "genre": [
+            "Drama",
+            "Romance",
+            "Anthology"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 4,
+          "cast": [
+            "Radhika Apte",
+            "Kiara Advani",
+            "Bhumi Pednekar"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/luststories/400/600"
+        },
+        {
+          "id": 6002,
+          "title": "Ghost Stories",
+          "year": 2020,
+          "language": "Hindi",
+          "genre": [
+            "Horror",
+            "Anthology"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 4,
+          "cast": [
+            "Janhvi Kapoor",
+            "Avinash Tiwary"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/ghoststories/400/600"
+        },
+        {
+          "id": 6003,
+          "title": "Ray",
+          "year": 2021,
+          "language": "Hindi",
+          "genre": [
+            "Anthology",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 4,
+          "cast": [
+            "Manoj Bajpayee",
+            "Ali Fazal",
+            "Harshvarrdhan Kapoor"
+          ],
+          "rating": "U/A",
+          "poster": "https://picsum.photos/seed/ray/400/600"
+        },
+        {
+          "id": 6004,
+          "title": "Ajeeb Daastaans",
+          "year": 2021,
+          "language": "Hindi",
+          "genre": [
+            "Anthology",
+            "Drama",
+            "Thriller"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 4,
+          "cast": [
+            "Fatima Sana Shaikh",
+            "Jaideep Ahlawat",
+            "Konkona Sen Sharma"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/ajeebdaastaans/400/600"
+        },
+        {
+          "id": 6005,
+          "title": "Decoupled",
+          "year": 2021,
+          "language": "Hindi",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Satire"
+          ],
+          "platform": "Netflix",
+          "seasons": 1,
+          "episodes": 8,
+          "cast": [
+            "R. Madhavan",
+            "Surveen Chawla"
+          ],
+          "rating": "A",
+          "poster": "https://picsum.photos/seed/decoupled/400/600"
+        }
+      ]
+    },
+    "metadata": {
+      "total_movies": 75,
+      "total_shows_series": 75,
+      "languages_covered": [
+        "Hindi",
+        "Tamil",
+        "Telugu",
+        "Malayalam",
+        "Kannada",
+        "Marathi",
+        "Punjabi"
+      ],
+      "platforms_covered": [
+        "Netflix",
+        "Amazon Prime Video",
+        "Disney+ Hotstar",
+        "SonyLIV",
+        "ZEE5",
+        "JioCinema",
+        "Colors TV",
+        "Star Plus",
+        "Sony Entertainment Television",
+        "SAB TV",
+        "Zee TV",
+        "MTV India",
+        "TVF"
+      ],
+      "genres_covered": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Thriller",
+        "Horror",
+        "Science Fiction",
+        "Biography",
+        "Historical",
+        "Sports",
+        "Fantasy",
+        "Crime",
+        "Mystery",
+        "Adventure",
+        "Anthology",
+        "Reality",
+        "Game Show",
+        "Talk Show",
+        "Social Drama",
+        "Mythology"
+      ],
+      "rating_guide": {
+        "U": "Universal - Suitable for all ages",
+        "U/A": "Universal/Adult - Parental guidance for children under 12",
+        "A": "Adult - Suitable for audiences 18 and above"
+      },
+      "last_updated": "2025-08"
+    }
+  }
+}

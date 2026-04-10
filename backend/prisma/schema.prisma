@@ -1,0 +1,38 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String    @id @default(uuid())
+  name      String?
+  email     String    @unique
+  password  String
+  role      String    @default("user") // "user" | "admin"
+  status    String    @default("pending") // "pending" | "approved" | "blocked"
+  bookings  Booking[]
+  createdAt DateTime  @default(now())
+}
+
+model Movie {
+  id             String    @id @default(uuid())
+  title          String
+  price          Float
+  seatsAvailable Int
+  bookings       Booking[]
+  createdAt      DateTime  @default(now())
+}
+
+model Booking {
+  id        String   @id @default(uuid())
+  userId    String
+  movieId   String
+  seats     Int
+  user      User     @relation(fields: [userId], references: [id])
+  movie     Movie    @relation(fields: [movieId], references: [id])
+  createdAt DateTime @default(now())
+}

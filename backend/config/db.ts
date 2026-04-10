@@ -18,10 +18,9 @@ const pool = new Pool({
 export const query = (text: string, params: any[] = []) => pool.query(text, params);
 
 let initialized = false;
+let initPromise: Promise<void> | null = null;
 
-export const initDb = async () => {
-  if (initialized) return;
-
+const runInitialization = async () => {
   await query('CREATE EXTENSION IF NOT EXISTS pgcrypto;');
 
   await query(`
@@ -73,8 +72,24 @@ export const initDb = async () => {
     `,
     [adminUsername, adminEmail.toLowerCase(), hashedAdminPassword],
   );
+};
 
-  initialized = true;
+export const initDb = async () => {
+  if (initialized) return;
+
+  if (!initPromise) {
+    initPromise = runInitialization()
+      .then(() => {
+        initialized = true;
+      })
+      .finally(() => {
+        if (!initialized) {
+          initPromise = null;
+        }
+      });
+  }
+
+  await initPromise;
 };
 
 export default pool;

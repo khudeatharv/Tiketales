@@ -22,10 +22,18 @@ const isVercelPreviewOrigin = (origin: string) => {
 export const createApp = () => {
   const app = express();
 
-  initDb().catch((error) => {
-    console.error('DB initialization failed', error);
-  });
   const allowedOrigins = parseAllowedOrigins();
+
+
+  app.use(async (_req, res, next) => {
+    try {
+      await initDb();
+      next();
+    } catch (error) {
+      console.error('DB initialization failed', error);
+      res.status(500).json({ message: 'Database initialization failed' });
+    }
+  });
 
   app.use(cors({
     origin: (origin, callback) => {

@@ -1,21 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TicketTales (BookMyShow-like)
 
-# Run and deploy your AI Studio app
+Production-ready setup for:
+- **Frontend:** Vite + React
+- **Backend:** Express (served locally or via Vercel serverless `/api`)
+- **Database:** PostgreSQL + Prisma
+- **Auth:** JWT bearer token
 
-This contains everything you need to run your app locally.
+## 1) Required environment variables
 
-View your app in AI Studio: https://ai.studio/apps/efda0dcd-35ef-4614-b7cc-e4688dd58271
+### Frontend (`.env`)
+```bash
+VITE_API_URL=https://your-vercel-project.vercel.app/api
+VITE_AUTH_ORIGIN=https://your-vercel-project.vercel.app
+```
 
-## Run Locally
+### Backend (`.env`)
+```bash
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DB?sslmode=require
+JWT_SECRET=replace-with-a-long-random-secret
+ADMIN_EMAILS=admin@example.com
+CORS_ORIGINS=https://your-vercel-project.vercel.app,http://localhost:3000
+PORT=3000
+```
 
-**Prerequisites:**  Node.js
+> `VITE_API_URL` must point to your deployed backend URL. Never use `localhost` in production.
 
+## 2) Vercel setup
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# Tiketales
+1. Open **Vercel Dashboard → Project → Settings → Environment Variables**.
+2. Add all variables above for **Production** (and Preview if needed).
+3. Redeploy the project.
+
+The repository includes `vercel.json` with:
+- build output: `dist`
+- API rewrite: `/api/* -> /api/index`
+- SPA rewrite: all routes to `/index.html`
+
+## 3) Prisma database setup
+
+Run locally (or in CI once with production DB URL):
+
+```bash
+npm run prisma:generate
+npm run prisma:push
+npm run prisma:seed
+```
+
+This creates tables and inserts sample movies.
+
+## 4) Local development
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+## 5) Admin and user flow
+
+- Register admin with email listed in `ADMIN_EMAILS`.
+- Admin can open `/admin` and manage users/movies/bookings.
+- New normal users are created as `pending` and must be approved by admin.
+
+## 6) Production smoke test checklist
+
+1. Open deployed site URL.
+2. Register normal user.
+3. Login as admin.
+4. Approve normal user from admin panel.
+5. Add movie from admin panel.
+6. Login as normal user and verify movie list is visible.
+7. Book tickets and verify booking appears in user + admin bookings.

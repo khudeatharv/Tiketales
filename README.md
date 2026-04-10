@@ -18,7 +18,7 @@ VITE_AUTH_ORIGIN=https://your-vercel-project.vercel.app
 ```bash
 DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DB?sslmode=require
 JWT_SECRET=replace-with-a-long-random-secret
-ADMIN_EMAILS=admin@example.com
+ADMIN_EMAILS=atharv1441@admin.com
 CORS_ORIGINS=https://your-vercel-project.vercel.app,http://localhost:3000
 PORT=3000
 ```
@@ -56,6 +56,14 @@ npm run dev
 ```
 
 Open `http://localhost:3000`.
+
+
+## Admin default credentials
+
+After running `npm run prisma:seed`, use:
+- Username: `atharv1441`
+- Email: `atharv1441@admin.com`
+- Password: `admin123`
 
 ## 5) Admin and user flow
 

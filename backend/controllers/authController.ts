@@ -65,9 +65,21 @@ export const registerUser = async (req: Request, res: Response) => {
 
 export const loginUser = async (req: Request, res: Response) => {
   try {
-    const { email, password } = req.body;
+    const identifier = (req.body.identifier || req.body.email || '').toString().trim();
+    const { password } = req.body;
 
-    const user = await prisma.user.findUnique({ where: { email } });
+    if (!identifier || !password) {
+      return res.status(400).json({ message: 'Username/email and password are required' });
+    }
+
+    const user = await prisma.user.findFirst({
+      where: {
+        OR: [
+          { email: identifier.toLowerCase() },
+          { name: identifier },
+        ],
+      },
+    });
 
     if (user && (await bcrypt.compare(password, user.password))) {
       if (user.status !== 'approved') {

@@ -1,21 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TicketTales (pg + Express + Vite)
 
-# Run and deploy your AI Studio app
+This project now uses **node-postgres (`pg`)** only (Prisma removed).
 
-This contains everything you need to run your app locally.
+## Environment variables
 
-View your app in AI Studio: https://ai.studio/apps/efda0dcd-35ef-4614-b7cc-e4688dd58271
+```bash
+VITE_API_URL=https://your-vercel-project.vercel.app
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DB?sslmode=require
+JWT_SECRET=replace-with-a-long-random-secret
+ADMIN_EMAILS=atharv1441@admin.com
+ADMIN_USERNAME=atharv1441
+ADMIN_EMAIL=atharv1441@admin.com
+ADMIN_PASSWORD=admin123
+CORS_ORIGINS=https://your-vercel-project.vercel.app,http://localhost:3000
+PORT=3000
+```
 
-## Run Locally
+## Database setup
 
-**Prerequisites:**  Node.js
+Schema file: `db/schema.sql`
 
+Initialize DB + ensure admin user exists:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# Tiketales
+```bash
+npm run db:init
+```
+
+## Vercel notes
+
+- API runs via serverless function: `api/[...all].ts`
+- `vercel.json` keeps filesystem routes first, then SPA fallback.
+- In production, backend uses SSL for PostgreSQL automatically.
+
+## Admin login
+
+- Username: `atharv1441`
+- Email: `atharv1441@admin.com`
+- Password: `admin123`
+
+## Local run
+
+```bash
+npm install
+npm run db:init
+npm run dev
+```

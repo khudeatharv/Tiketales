@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const baseURL = import.meta.env.PROD ? '/api' : '/';
+
 const api = axios.create({
-  baseURL: '/', // Same origin since we proxy via Express/Vite in dev
+  baseURL,
 });
 
 // Request interceptor to add the JWT token to headers

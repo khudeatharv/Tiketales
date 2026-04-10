@@ -33,7 +33,7 @@ PORT=3000
 
 The repository includes `vercel.json` with:
 - build output: `dist`
-- API rewrite: `/api/* -> /api/index`
+- API handled by Vercel catch-all function: `api/[...all].ts`
 - SPA rewrite: all routes to `/index.html`
 
 ## 3) Prisma database setup
@@ -80,3 +80,12 @@ After running `npm run prisma:seed`, use:
 5. Add movie from admin panel.
 6. Login as normal user and verify movie list is visible.
 7. Book tickets and verify booking appears in user + admin bookings.
+
+
+## Admin login troubleshooting
+
+If admin login shows generic failure:
+1. Verify Vercel envs (`DATABASE_URL`, `JWT_SECRET`, `ADMIN_EMAILS`, `VITE_API_URL`).
+2. Run `npm run prisma:push && npm run prisma:seed` against production DB.
+3. Check `https://<your-domain>/api/health` returns JSON.
+4. Use username `atharv1441` or email `atharv1441@admin.com` with password `admin123`.

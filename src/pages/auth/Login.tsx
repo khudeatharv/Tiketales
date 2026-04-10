@@ -16,7 +16,7 @@ const Login = () => {
     setError('');
     setLoading(true);
     try {
-      const res = await api.post('/auth/login', { identifier, password });
+      const res = await api.post('/auth/login', { identifier, email: identifier, password });
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('user', JSON.stringify(res.data.user));
       if (res.data.user.role === 'admin') {
@@ -25,7 +25,13 @@ const Login = () => {
         navigate('/');
       }
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Login failed. Please try again.');
+      if (err.response?.data?.message) {
+        setError(err.response.data.message);
+      } else if (err.request) {
+        setError('Unable to reach server. Check Vercel environment variables and API routes.');
+      } else {
+        setError('Login failed. Please try again.');
+      }
     } finally {
       setLoading(false);
     }

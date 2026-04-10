@@ -2,18 +2,36 @@ import { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import prisma from '../config/prismaClient';
+import { getJwtSecret } from '../config/jwt';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'bookmyshow_secret_key_123';
+const JWT_SECRET = getJwtSecret();
 
 const generateToken = (id: string, email: string, role: string) => {
   return jwt.sign({ id, email, role }, JWT_SECRET, {
-    expiresIn: '1d', // 1 day expiry as requested
+    expiresIn: '1d',
   });
+};
+
+const isAdminEmail = (email: string) => {
+  const admins = (process.env.ADMIN_EMAILS || '')
+    .split(',')
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
+
+  if (admins.length === 0) {
+    return email.toLowerCase().includes('admin');
+  }
+
+  return admins.includes(email.toLowerCase());
 };
 
 export const registerUser = async (req: Request, res: Response) => {
   try {
     const { name, email, password } = req.body;
+
+    if (!name || !email || !password) {
+      return res.status(400).json({ message: 'Name, email and password are required' });
+    }
 
     const userExists = await prisma.user.findUnique({ where: { email } });
 
@@ -24,20 +42,20 @@ export const registerUser = async (req: Request, res: Response) => {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
-    const isAdmin = email.includes('admin');
+    const adminUser = isAdminEmail(email);
 
     const user = await prisma.user.create({
       data: {
         name,
         email,
         password: hashedPassword,
-        role: isAdmin ? 'admin' : 'user',
-        status: isAdmin ? 'approved' : 'pending'
-      }
+        role: adminUser ? 'admin' : 'user',
+        status: adminUser ? 'approved' : 'pending',
+      },
     });
 
     res.status(201).json({
-      message: 'Registration successful! ' + (isAdmin ? '' : 'Please wait for admin approval.'),
+      message: `Registration successful! ${adminUser ? '' : 'Please wait for admin approval.'}`.trim(),
       user: { id: user.id, name: user.name, email: user.email, role: user.role, status: user.status },
     });
   } catch (error: any) {
@@ -60,9 +78,10 @@ export const loginUser = async (req: Request, res: Response) => {
         user: { id: user.id, name: user.name, email: user.email, role: user.role, status: user.status },
         token: generateToken(user.id, user.email, user.role),
       });
-    } else {
-      res.status(401).json({ message: 'Invalid email or password' });
+      return;
     }
+
+    res.status(401).json({ message: 'Invalid email or password' });
   } catch (error: any) {
     res.status(500).json({ message: error.message });
   }

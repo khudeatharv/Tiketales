@@ -1,10 +1,19 @@
 import axios from 'axios';
 
+const normalizedBaseUrl = (() => {
+  const envUrl = import.meta.env.VITE_API_URL?.trim();
+  if (envUrl) {
+    return envUrl.replace(/\/$/, '');
+  }
+
+  return import.meta.env.PROD ? '/api' : '/';
+})();
+
 const api = axios.create({
-  baseURL: '/', // Same origin since we proxy via Express/Vite in dev
+  baseURL: normalizedBaseUrl,
+  withCredentials: false,
 });
 
-// Request interceptor to add the JWT token to headers
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) {

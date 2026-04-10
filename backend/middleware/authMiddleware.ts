@@ -1,34 +1,36 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 import prisma from '../config/prismaClient';
+import { getJwtSecret } from '../config/jwt';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'bookmyshow_secret_key_123';
+const JWT_SECRET = getJwtSecret();
 
 export interface AuthRequest extends Request {
   user?: any;
 }
 
 export const authMiddleware = async (req: AuthRequest, res: Response, next: NextFunction) => {
-  let token;
+  const authHeader = req.headers.authorization;
 
-  if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
-    try {
-      token = req.headers.authorization.split(' ')[1];
-      const decoded: any = jwt.verify(token, JWT_SECRET);
-      
-      const user = await prisma.user.findUnique({ where: { id: decoded.id } });
-      if (!user) {
-        return res.status(401).json({ message: 'User no longer exists' });
-      }
-
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const { password, ...userWithoutPassword } = user;
-      req.user = userWithoutPassword;
-      next();
-    } catch (error) {
-      res.status(401).json({ message: 'Not authorized, token failed' });
-    }
-  } else {
+  if (!authHeader || !authHeader.startsWith('Bearer ')) {
     res.status(401).json({ message: 'Not authorized, no token' });
+    return;
+  }
+
+  try {
+    const token = authHeader.split(' ')[1];
+    const decoded = jwt.verify(token, JWT_SECRET) as { id: string };
+
+    const user = await prisma.user.findUnique({ where: { id: decoded.id } });
+    if (!user) {
+      res.status(401).json({ message: 'User no longer exists' });
+      return;
+    }
+
+    const { password: _password, ...userWithoutPassword } = user;
+    req.user = userWithoutPassword;
+    next();
+  } catch (_error) {
+    res.status(401).json({ message: 'Not authorized, token failed' });
   }
 };

@@ -1,11 +1,14 @@
-import { GoogleGenAI } from "@google/genai";
-
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-
 export const getMovieRecommendation = async (genre: string) => {
-  const response = await ai.models.generateContent({
-    model: "gemini-3-flash-preview",
-    contents: `Suggest 3 popular movies in the ${genre} genre. Provide a brief 1-sentence description for each.`,
+  const response = await fetch('/movies/recommendations', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ genre }),
   });
-  return response.text;
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch movie recommendations');
+  }
+
+  const data = (await response.json()) as { recommendations?: string };
+  return data.recommendations ?? '';
 };
